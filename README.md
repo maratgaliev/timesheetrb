@@ -46,4 +46,7 @@ alpha = %w(Janv Fev Mar Apr May Jun Jul Aug Sep Oct Nov Dec)
     }
 
     @graph = TimesheetGraph.new(alpha, args, data)
+    
+    # And in your view
+    @graph.display
 ```
